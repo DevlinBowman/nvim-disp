@@ -54,23 +54,25 @@ This executes through your configured Neovim shell.
 ⸻
 
 Behavior
-	•	Output is buffered until process exit.
-	•	ANSI sequences are parsed and converted to Neovim highlights.
-	•	The viewport closes with:
-	•	q
-	•	<Esc>
-	•	<CR>
-	•	Leaving the window
+
+	-	Output is buffered until process exit.
+	-	ANSI sequences are parsed and converted to Neovim highlights.
+	
+	-	The viewport closes with:
+	-	q
+	-	<Esc>
+	-	<CR>
+	-	Leaving the window
 
 Running a new command replaces the previous viewport.
 
 ⸻
 
 Non-Goals
-	•	Interactive terminal
-	•	Streaming pseudo-terminal
-	•	Background job manager
-	•	Task orchestration
-	•	Full shell emulation
+	-	Interactive terminal
+	-	Streaming pseudo-terminal
+	-	Background job manager
+	-	Task orchestration
+	-	Full shell emulation
 
 This is a viewport, not a terminal.
