@@ -3,6 +3,11 @@
 A minimal floating viewport for :! command output in Neovim.
 It runs an external command and renders its ANSI-colored output inside a floating window.
 
+Developed for use with lua-structprint for printf debugging
+```
+https://github.com/DevlinBowman/lua-structprint
+```
+
 ⸻
 
 ## Installation
